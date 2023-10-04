@@ -1,0 +1,42 @@
+/*{
+    background-color: #E5E6F2;
+}*/
+
+.container-big-card{
+    border-radius: 10px;
+    width: 900px;
+    height: 700px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.big-card-title > h1{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+
+.big-card-description > p{
+    margin-top: 10px;
+    margin-left: 5px;
+} 
+
+.big-card-description > p > a{
+    color: grey;
+    font-size: 20px;
+}
+
+.big-card-photo > img{
+    width: 100%;
+    min-width: 900;
+
+}
